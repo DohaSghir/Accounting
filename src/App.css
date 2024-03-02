@@ -1,0 +1,37 @@
+
+
+.image{
+  background-image: url('../public/images/Header-5.svg');
+  background-size: cover;
+background-attachment: fixed;
+}
+.card{
+      transition: 0.7s;
+}
+.card:hover{
+  transform: scale(0.95);
+}
+.btn{
+  transition: 0.7s;
+}
+.btn:active{
+  transform: scale(0.9);
+}
+p{
+  color:red;
+  font-size: small;
+}
+.before::before {
+  position: absolute;
+  z-index: 10;
+content: '';
+background-color: white;
+top:-5px;
+left:10px;
+width: 20px;
+height: 20px;
+transform: rotate(45deg);
+}
+.shadow{
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
